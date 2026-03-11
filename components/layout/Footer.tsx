@@ -9,7 +9,7 @@ const procedures = [
 ];
 
 const quickLinks = [
-  { label: "About Dr. Surbhi Nikam", href: "/about" },
+  { label: "About Dr. Girish N. Mirajkar", href: "/about" },
   { label: "Before & After Gallery", href: "/gallery" },
   { label: "Patient Testimonials", href: "/testimonials" },
   { label: "Blog & Articles", href: "/blog" },
@@ -25,14 +25,14 @@ export default function Footer() {
           <div className="lg:col-span-1">
             <Link href="/" className="inline-block mb-4">
               <span className="font-serif text-2xl font-bold text-[#C9A96E]">
-                Dr. Surbhi Nikam
+                Dr. Girish N. Mirajkar
               </span>
               <p className="text-[10px] text-[#94a3b8] uppercase tracking-widest mt-0.5 font-sans">
-                Plastic & Cosmetic Surgeon
+                Consultant Plastic, Aesthetic & Reconstructive Surgeon
               </p>
             </Link>
             <p className="text-[#94a3b8] text-sm leading-relaxed font-sans mt-4">
-              Board-certified plastic & cosmetic surgeon in Mumbai with over 10
+              Board-certified Consultant Plastic, Aesthetic & Reconstructive Surgeon in Mumbai with over 10
               years of experience. Dedicated to enhancing your natural beauty
               with precision, care, and artistry.
             </p>
@@ -128,10 +128,10 @@ export default function Footer() {
               <li className="flex gap-3 items-center">
                 <Mail size={16} className="text-[#C9A96E] shrink-0" />
                 <a
-                  href="mailto:info@drsurbhinikam.com"
+                  href="mailto:info@drgirish.com"
                   className="text-sm text-[#94a3b8] hover:text-[#C9A96E] transition-colors font-sans"
                 >
-                  info@drsurbhinikam.com
+                  info@drgirish.com
                 </a>
               </li>
             </ul>
@@ -152,7 +152,7 @@ export default function Footer() {
         {/* Bottom bar */}
         <div className="mt-12 pt-6 border-t border-[#243355] flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="text-xs text-[#94a3b8] font-sans text-center">
-            © {new Date().getFullYear()} Dr. Surbhi Nikam. All rights reserved.
+            © {new Date().getFullYear()} Dr. Girish N. Mirajkar. All rights reserved.
           </p>
           <div className="flex gap-6">
             <Link

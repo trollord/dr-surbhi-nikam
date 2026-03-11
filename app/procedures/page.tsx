@@ -3,9 +3,9 @@ import Link from "next/link";
 import { ArrowRight, Sparkles, Activity, Scissors, Wind } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Procedures | Dr. Surbhi Nikam — Plastic Surgeon Mumbai",
+  title: "Procedures | Dr. Girish N. Mirajkar — Plastic Surgeon Mumbai",
   description:
-    "Explore the full range of aesthetic and reconstructive procedures offered by Dr. Surbhi Nikam Kasangottuwar — Face, Breast, Body, and Hair Restoration.",
+    "Explore the full range of aesthetic and reconstructive procedures offered by Dr. Girish N. Mirajkar — Face, Breast, Body, and Hair Restoration.",
 };
 
 const categories = [
@@ -15,7 +15,7 @@ const categories = [
     title: "Face Procedures",
     subtitle: "Rhinoplasty · Facelift · Blepharoplasty · Lip Augmentation",
     description:
-      "The face is the most expressive canvas we work on. From subtle refinements like lip augmentation to transformative procedures like rhinoplasty and facelifts, Dr. Surbhi Nikam's facial work is guided by symmetry, proportion, and the goal of a naturally youthful appearance.",
+      "The face is the most expressive canvas we work on. From subtle refinements like lip augmentation to transformative procedures like rhinoplasty and facelifts, Dr. Girish N. Mirajkar's facial work is guided by symmetry, proportion, and the goal of a naturally youthful appearance.",
     tags: ["Rhinoplasty", "Facelift", "Eyelid Surgery", "Lip Augmentation"],
     gradient: "from-rose-900/30 to-[#1a2a45]",
   },
@@ -25,7 +25,7 @@ const categories = [
     title: "Breast Procedures",
     subtitle: "Augmentation · Reduction · Lift",
     description:
-      "Whether seeking fuller contours, relief from physical discomfort, or restoration after life changes, Dr. Surbhi Nikam delivers breast procedures that are tailored to your frame, lifestyle, and personal goals — with results designed to last.",
+      "Whether seeking fuller contours, relief from physical discomfort, or restoration after life changes, Dr. Girish N. Mirajkar delivers breast procedures that are tailored to your frame, lifestyle, and personal goals — with results designed to last.",
     tags: ["Augmentation", "Reduction", "Breast Lift", "Revision"],
     gradient: "from-violet-900/30 to-[#1a2a45]",
   },
@@ -35,7 +35,7 @@ const categories = [
     title: "Body Contouring",
     subtitle: "Liposuction · Tummy Tuck · Mommy Makeover · Arm Lift",
     description:
-      "Targeted body contouring addresses areas that resist diet and exercise. Dr. Surbhi Nikam's precise sculpting techniques — from liposuction to comprehensive mommy makeovers — are designed to reveal the silhouette you've worked toward.",
+      "Targeted body contouring addresses areas that resist diet and exercise. Dr. Girish N. Mirajkar's precise sculpting techniques — from liposuction to comprehensive mommy makeovers — are designed to reveal the silhouette you've worked toward.",
     tags: ["Liposuction", "Tummy Tuck", "Mommy Makeover", "Arm Lift"],
     gradient: "from-sky-900/30 to-[#1a2a45]",
   },
@@ -45,7 +45,7 @@ const categories = [
     title: "Hair Restoration",
     subtitle: "FUE Transplant · PRP Therapy · Beard Transplant",
     description:
-      "Hair loss affects confidence deeply. Using the latest FUE technology and regenerative PRP therapy, Dr. Surbhi Nikam restores natural-looking hairlines and density — with permanent, undetectable results for scalp and beard alike.",
+      "Hair loss affects confidence deeply. Using the latest FUE technology and regenerative PRP therapy, Dr. Girish N. Mirajkar restores natural-looking hairlines and density — with permanent, undetectable results for scalp and beard alike.",
     tags: ["FUE Transplant", "PRP Therapy", "Beard Transplant", "Hairline Design"],
     gradient: "from-emerald-900/30 to-[#1a2a45]",
   },
@@ -65,7 +65,7 @@ export default function ProceduresPage() {
             <span className="text-[#C9A96E]">Procedures</span>
           </h1>
           <p className="text-[#94a3b8] font-sans text-lg max-w-3xl mx-auto leading-relaxed">
-            Every procedure offered at our practice is performed personally by Dr. Surbhi Nikam — ensuring
+            Every procedure offered at our practice is performed personally by Dr. Girish N. Mirajkar — ensuring
             the highest standard of care, consistency, and artistry from consultation to recovery.
           </p>
         </div>
@@ -128,7 +128,7 @@ export default function ProceduresPage() {
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="font-serif text-3xl sm:text-4xl text-[#FAFAFA] mb-4">
-              Why Patients Choose Dr. Surbhi Nikam
+              Why Patients Choose Dr. Girish N. Mirajkar
             </h2>
             <p className="text-[#94a3b8] font-sans max-w-2xl mx-auto">
               Our practice stands apart through personalised care, advanced techniques, and a
@@ -160,7 +160,7 @@ export default function ProceduresPage() {
             Not Sure Which Procedure Is Right for You?
           </h2>
           <p className="text-[#94a3b8] font-sans mb-8 leading-relaxed">
-            Schedule a complimentary consultation. Dr. Surbhi Nikam will evaluate your goals, anatomy, and
+            Schedule a complimentary consultation. Dr. Girish N. Mirajkar will evaluate your goals, anatomy, and
             health to recommend the most appropriate personalised plan.
           </p>
           <Link

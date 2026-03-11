@@ -3,24 +3,24 @@ import Link from 'next/link';
 import { Clock, CheckCircle, ArrowLeft, Phone } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: 'Face Procedures Mumbai | Rhinoplasty, Facelift, Blepharoplasty | Dr. Surbhi Nikam',
-  description: 'Explore facial plastic surgery procedures in Mumbai performed by MCh Plastic Surgeon Dr. Surbhi Nikam.',
+  title: 'Face Procedures Mumbai | Rhinoplasty, Facelift, Blepharoplasty | Dr. Girish N. Mirajkar',
+  description: 'Explore facial plastic surgery procedures in Mumbai performed by MCh Plastic Surgeon Dr. Girish N. Mirajkar.',
 };
 
 const procedures = [
-  { id: 'rhinoplasty', name: 'Rhinoplasty (Nose Job)', tagline: 'Redefine your profile with precision', description: 'Rhinoplasty reshapes the nose to improve harmony with facial features. Dr. Surbhi Nikam performs both open and closed rhinoplasty, addressing a prominent hump, wide nostrils, a drooping tip, or breathing difficulties. The result is a nose that looks as though you were born with it.', benefits: ['Corrects structural asymmetries', 'Improves nasal tip definition', 'Reduces or refines nasal bridge', 'Can address breathing obstruction', 'Permanent, natural-looking results'], recovery: '7-14 days', anaesthesia: 'General' },
-  { id: 'facelift', name: 'Facelift (Rhytidectomy)', tagline: 'Turn back the clock naturally', description: 'A facelift addresses sagging skin, deepened folds, and loss of facial volume that comes with ageing. Dr. Surbhi Nikam uses the SMAS technique to lift underlying muscle as well as skin, ensuring results that last 8-12 years without the pulled, over-operated look.', benefits: ['Addresses mid-face and jowl laxity', 'Restores jawline definition', 'SMAS-layer technique for longevity', 'Can be combined with neck lift', 'Natural, rested appearance'], recovery: '10-21 days', anaesthesia: 'General / IV Sedation' },
-  { id: 'blepharoplasty', name: 'Blepharoplasty (Eyelid Surgery)', tagline: 'Open, bright, refreshed eyes', description: 'Blepharoplasty removes excess skin, fat, and muscle from the upper and/or lower eyelids, addressing drooping lids, under-eye bags, and a tired appearance. Dr. Surbhi Nikam places incisions that heal invisibly within natural skin folds.', benefits: ['Removes excess upper eyelid skin', 'Eliminates under-eye bags and puffiness', 'Scars hidden within eyelid creases', 'Can improve visual field', 'Quick procedure, lasting results'], recovery: '5-10 days', anaesthesia: 'Local / IV Sedation' },
-  { id: 'lip-augmentation', name: 'Lip Augmentation', tagline: 'Fuller, perfectly shaped lips', description: 'Lip augmentation enhances volume, definition, and symmetry using dermal fillers or fat transfer. Dr. Surbhi Nikam specialises in subtle enhancement that preserves lip movement. Both temporary (hyaluronic acid) and permanent (fat transfer) options are available.', benefits: ['Custom volume and shape enhancement', 'Natural lip movement preserved', 'Option of temporary or permanent results', 'Corrects lip asymmetry', 'No downtime with filler option'], recovery: '1-3 days (filler) / 5-7 days (fat transfer)', anaesthesia: 'Topical / Local' },
+  { id: 'rhinoplasty', name: 'Rhinoplasty (Nose Job)', tagline: 'Redefine your profile with precision', description: 'Rhinoplasty reshapes the nose to improve harmony with facial features. Dr. Girish N. Mirajkar performs both open and closed rhinoplasty, addressing a prominent hump, wide nostrils, a drooping tip, or breathing difficulties. The result is a nose that looks as though you were born with it.', benefits: ['Corrects structural asymmetries', 'Improves nasal tip definition', 'Reduces or refines nasal bridge', 'Can address breathing obstruction', 'Permanent, natural-looking results'], recovery: '7-14 days', anaesthesia: 'General' },
+  { id: 'facelift', name: 'Facelift (Rhytidectomy)', tagline: 'Turn back the clock naturally', description: 'A facelift addresses sagging skin, deepened folds, and loss of facial volume that comes with ageing. Dr. Girish N. Mirajkar uses the SMAS technique to lift underlying muscle as well as skin, ensuring results that last 8-12 years without the pulled, over-operated look.', benefits: ['Addresses mid-face and jowl laxity', 'Restores jawline definition', 'SMAS-layer technique for longevity', 'Can be combined with neck lift', 'Natural, rested appearance'], recovery: '10-21 days', anaesthesia: 'General / IV Sedation' },
+  { id: 'blepharoplasty', name: 'Blepharoplasty (Eyelid Surgery)', tagline: 'Open, bright, refreshed eyes', description: 'Blepharoplasty removes excess skin, fat, and muscle from the upper and/or lower eyelids, addressing drooping lids, under-eye bags, and a tired appearance. Dr. Girish N. Mirajkar places incisions that heal invisibly within natural skin folds.', benefits: ['Removes excess upper eyelid skin', 'Eliminates under-eye bags and puffiness', 'Scars hidden within eyelid creases', 'Can improve visual field', 'Quick procedure, lasting results'], recovery: '5-10 days', anaesthesia: 'Local / IV Sedation' },
+  { id: 'lip-augmentation', name: 'Lip Augmentation', tagline: 'Fuller, perfectly shaped lips', description: 'Lip augmentation enhances volume, definition, and symmetry using dermal fillers or fat transfer. Dr. Girish N. Mirajkar specialises in subtle enhancement that preserves lip movement. Both temporary (hyaluronic acid) and permanent (fat transfer) options are available.', benefits: ['Custom volume and shape enhancement', 'Natural lip movement preserved', 'Option of temporary or permanent results', 'Corrects lip asymmetry', 'No downtime with filler option'], recovery: '1-3 days (filler) / 5-7 days (fat transfer)', anaesthesia: 'Topical / Local' },
 ];
 
 const faqs = [
   { q: 'How long do face procedure results last?', a: 'Rhinoplasty results are permanent. Facelifts typically last 8-12 years. Blepharoplasty lasts 10+ years. Lip fillers last 9-18 months; fat transfer is long-lasting to permanent.' },
-  { q: 'Will there be visible scarring after facial surgery?', a: 'Dr. Surbhi Nikam places all incisions strategically within natural skin creases or inside the nostrils, making scars virtually invisible once fully healed.' },
+  { q: 'Will there be visible scarring after facial surgery?', a: 'Dr. Girish N. Mirajkar places all incisions strategically within natural skin creases or inside the nostrils, making scars virtually invisible once fully healed.' },
   { q: 'What is the minimum age for facial procedures?', a: 'Rhinoplasty is recommended after 17-18 years when nasal growth is complete. Facelifts and blepharoplasty are typically performed on adults 30+.' },
   { q: 'Can multiple facial procedures be combined?', a: 'Yes. Combining procedures is common — one anaesthetic, one recovery period, and harmonious combined results.' },
   { q: 'How do I prepare for facial surgery?', a: 'Stop smoking 4 weeks prior, avoid blood thinners 2 weeks prior, arrange a recovery companion, and follow fasting instructions.' },
-  { q: 'Is a virtual consultation available?', a: 'Yes. Dr. Surbhi Nikam offers online consultations for patients outside Mumbai covering photo analysis, procedure discussion, and preliminary planning.' },
+  { q: 'Is a virtual consultation available?', a: 'Yes. Dr. Girish N. Mirajkar offers online consultations for patients outside Mumbai covering photo analysis, procedure discussion, and preliminary planning.' },
 ];
 
 export default function FaceProceduresPage() {
@@ -134,7 +134,7 @@ export default function FaceProceduresPage() {
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="font-serif text-3xl sm:text-4xl text-[#FAFAFA] mb-5">Take the First Step</h2>
           <p className="text-[#94a3b8] font-sans mb-8 leading-relaxed">
-            Consult with Dr. Surbhi Nikam to discuss your facial goals and receive a personalised treatment plan.
+            Consult with Dr. Girish N. Mirajkar to discuss your facial goals and receive a personalised treatment plan.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact" className="inline-block bg-[#C9A96E] hover:bg-[#D4B483] text-[#0f1a2e] font-sans font-semibold px-10 py-4 rounded-full transition-colors duration-200">

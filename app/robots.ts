@@ -7,7 +7,7 @@ export default function robots(): MetadataRoute.Robots {
       allow: "/",
       disallow: ["/api/", "/_next/"],
     },
-    sitemap: "https://drsurbhinikam.com/sitemap.xml",
-    host: "https://drsurbhinikam.com",
+    sitemap: "https://drgirish.com/sitemap.xml",
+    host: "https://drgirish.com",
   };
 }

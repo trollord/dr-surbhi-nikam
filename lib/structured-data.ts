@@ -3,13 +3,13 @@ export const doctorSchema = {
   "@graph": [
     {
       "@type": "MedicalBusiness",
-      "@id": "https://drsurbhinikam.com/#clinic",
-      name: "Dr. Surbhi Nikam - Plastic & Cosmetic Surgery",
+      "@id": "https://drgirish.com/#clinic",
+      name: "Dr. Girish N. Mirajkar - Plastic, Aesthetic & Reconstructive Surgery",
       description:
-        "Board-certified plastic & cosmetic surgery clinic in Mumbai specialising in facial, breast, body, and hair restoration procedures.",
-      url: "https://drsurbhinikam.com",
+        "Board-certified plastic, aesthetic & reconstructive surgery clinic in Mumbai specialising in facial, breast, body, and hair restoration procedures.",
+      url: "https://drgirish.com",
       telephone: "+91-98765-43210",
-      email: "info@drsurbhinikam.com",
+      email: "info@drgirish.com",
       address: {
         "@type": "PostalAddress",
         streetAddress: "123 Medical Centre, Bandra West",
@@ -34,20 +34,20 @@ export const doctorSchema = {
       priceRange: "₹₹₹",
       medicalSpecialty: "PlasticSurgery",
       sameAs: [
-        "https://www.instagram.com/drsurbhinikam",
-        "https://www.facebook.com/drsurbhinikam",
+        "https://www.instagram.com/drgirish",
+        "https://www.facebook.com/drgirish",
       ],
     },
     {
       "@type": ["Person", "Physician"],
-      "@id": "https://drsurbhinikam.com/#doctor",
-      name: "Dr. Surbhi Nikam",
-      jobTitle: "Plastic & Cosmetic Surgeon",
+      "@id": "https://drgirish.com/#doctor",
+      name: "Dr. Girish N. Mirajkar",
+      jobTitle: "Consultant Plastic, Aesthetic & Reconstructive Surgeon",
       description:
-        "Board-certified plastic & cosmetic surgeon in Mumbai with over 10 years of experience in reconstructive and aesthetic procedures.",
-      url: "https://drsurbhinikam.com/about",
+        "Board-certified Consultant Plastic, Aesthetic & Reconstructive Surgeon in Mumbai with over 10 years of experience in reconstructive and aesthetic procedures.",
+      url: "https://drgirish.com/about",
       telephone: "+91-98765-43210",
-      worksFor: { "@id": "https://drsurbhinikam.com/#clinic" },
+      worksFor: { "@id": "https://drgirish.com/#clinic" },
       address: {
         "@type": "PostalAddress",
         addressLocality: "Mumbai",
@@ -71,10 +71,10 @@ export function getProcedureSchema(name: string, description: string, url: strin
     url,
     procedureType: "Surgical",
     bodyLocation: name,
-    preparation: "Consultation with Dr. Surbhi Nikam required before procedure.",
+    preparation: "Consultation with Dr. Girish N. Mirajkar required before procedure.",
     followup: "Post-operative follow-up appointments included.",
     howPerformed: "Performed under anaesthesia in an accredited surgical facility.",
-    provider: { "@id": "https://drsurbhinikam.com/#doctor" },
+    provider: { "@id": "https://drgirish.com/#doctor" },
   };
 }
 
@@ -86,7 +86,7 @@ export function getBreadcrumbSchema(items: { name: string; href: string }[]) {
       "@type": "ListItem",
       position: i + 1,
       name: item.name,
-      item: `https://drsurbhinikam.com${item.href}`,
+      item: `https://drgirish.com${item.href}`,
     })),
   };
 }

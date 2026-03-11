@@ -5,9 +5,9 @@ import Link from "next/link";
 import { Award, GraduationCap, Stethoscope, ArrowRight } from "lucide-react";
 
 const credentials = [
-  { icon: GraduationCap, text: "MBBS, MS, MCh (Plastic Surgery)" },
-  { icon: Stethoscope, text: "Fellow, Indian Association of Plastic Surgeons" },
-  { icon: Award, text: "National Board Certified · 10+ Years Experience" },
+  { icon: GraduationCap, text: "MBBS · MS · DNB (General Surgery) · MRCS (England)" },
+  { icon: Award, text: "MCh (Gold Medal) · DrNB (Plastic & Reconstructive Surgery)" },
+  { icon: Stethoscope, text: "Consultant Plastic, Aesthetic & Reconstructive Surgeon" },
 ];
 
 export default function AboutPreview() {
@@ -32,11 +32,11 @@ export default function AboutPreview() {
                 <div className="text-center">
                   <div className="w-24 h-24 rounded-full bg-[#243355] border-2 border-[#C9A96E]/30 flex items-center justify-center mx-auto mb-4">
                     <span className="font-serif text-3xl text-[#C9A96E] font-bold">
-                      S
+                      G
                     </span>
                   </div>
                   <p className="text-[#94a3b8] text-sm font-sans">
-                    Dr. Surbhi Nikam
+                    Dr. Girish N. Mirajkar
                   </p>
                   <p className="text-[#C9A96E] text-xs font-sans uppercase tracking-wide mt-1">
                     Replace with actual photo
@@ -60,7 +60,7 @@ export default function AboutPreview() {
           {/* Content */}
           <div>
             <p className="text-[#C9A96E] text-sm font-sans uppercase tracking-widest mb-3">
-              About Dr. Surbhi Nikam
+              About Dr. Girish N. Mirajkar
             </p>
             <h2 className="font-serif text-4xl lg:text-5xl font-bold text-[#FAFAFA] leading-tight mb-6">
               Precision, Art &<br />
@@ -68,14 +68,14 @@ export default function AboutPreview() {
             </h2>
             <div className="section-divider" />
             <p className="text-[#94a3b8] font-sans leading-relaxed mb-6">
-              Dr. Surbhi Nikam is a board-certified plastic & cosmetic surgeon
+              Dr. Girish N. Mirajkar is a board-certified Consultant Plastic, Aesthetic & Reconstructive Surgeon
               practising in Mumbai, with over a decade of expertise in
-              reconstructive and aesthetic procedures. She combines surgical
+              reconstructive and aesthetic procedures. He combines surgical
               precision with an artistic eye to deliver results that are
               natural, refined, and long-lasting.
             </p>
             <p className="text-[#94a3b8] font-sans leading-relaxed mb-8">
-              Trained at leading institutions across India, Dr. Surbhi Nikam
+              Trained at leading institutions across India, Dr. Girish N. Mirajkar
               specializes in facial rejuvenation, body contouring, breast
               aesthetics, and hair restoration — providing a comprehensive,
               patient-centered approach to cosmetic care.

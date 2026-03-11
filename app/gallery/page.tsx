@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Before & After Gallery | Plastic Surgery Results | Dr. Surbhi Nikam Mumbai",
-  description: "View before and after results from rhinoplasty, facelift, breast augmentation, liposuction, and hair restoration procedures by Dr. Surbhi Nikam Kasangottuwar in Mumbai.",
+  title: "Before & After Gallery | Plastic Surgery Results | Dr. Girish N. Mirajkar Mumbai",
+  description: "View before and after results from rhinoplasty, facelift, breast augmentation, liposuction, and hair restoration procedures by Dr. Girish N. Mirajkar in Mumbai.",
 };
 
 const galleryItems = [
@@ -47,7 +47,7 @@ export default function GalleryPage() {
             Before &amp; After <span className="text-[#C9A96E]">Gallery</span>
           </h1>
           <p className="text-[#94a3b8] font-sans text-lg max-w-3xl mx-auto leading-relaxed mb-4">
-            A curated selection of results from procedures performed by Dr. Surbhi Nikam Kasangottuwar. All photographs are shared with explicit patient consent.
+            A curated selection of results from procedures performed by Dr. Girish N. Mirajkar. All photographs are shared with explicit patient consent.
           </p>
           <div className="inline-flex items-center gap-2 bg-[#1a2a45] border border-[#243355] rounded-full px-5 py-2.5 text-[#94a3b8] font-sans text-sm">
             <span className="w-2 h-2 rounded-full bg-[#C9A96E] inline-block"></span>
@@ -120,7 +120,7 @@ export default function GalleryPage() {
           {/* Consent note */}
           <div className="mt-12 bg-[#1a2a45] border border-[#243355] rounded-xl p-6 text-center">
             <p className="font-sans text-sm text-[#94a3b8] max-w-3xl mx-auto leading-relaxed">
-              <span className="text-[#C9A96E] font-semibold">Patient Privacy Notice:</span> All before and after photographs displayed in this gallery have been obtained with explicit written consent from the respective patients. Photographs are the exclusive property of Dr. Surbhi Nikam Kasangottuwar and may not be reproduced without permission. Results may vary between patients.
+              <span className="text-[#C9A96E] font-semibold">Patient Privacy Notice:</span> All before and after photographs displayed in this gallery have been obtained with explicit written consent from the respective patients. Photographs are the exclusive property of Dr. Girish N. Mirajkar and may not be reproduced without permission. Results may vary between patients.
             </p>
           </div>
         </div>
@@ -132,7 +132,7 @@ export default function GalleryPage() {
             Envision Your Results
           </h2>
           <p className="text-[#94a3b8] font-sans mb-8 leading-relaxed">
-            Schedule a consultation to discuss your goals and see how Dr. Surbhi Nikam can help you achieve them.
+            Schedule a consultation to discuss your goals and see how Dr. Girish N. Mirajkar can help you achieve them.
           </p>
           <Link href="/contact" className="inline-block bg-[#C9A96E] hover:bg-[#D4B483] text-[#0f1a2e] font-sans font-semibold px-10 py-4 rounded-full transition-colors duration-200">
             Book a Consultation

@@ -10,11 +10,11 @@ import BlogPreview from "@/components/sections/BlogPreview";
 import ContactCTA from "@/components/sections/ContactCTA";
 
 export const metadata: Metadata = {
-  title: "Dr. Surbhi Nikam | Plastic & Cosmetic Surgeon in Mumbai",
+  title: "Dr. Girish N. Mirajkar | Consultant Plastic, Aesthetic & Reconstructive Surgeon in Mumbai",
   description:
-    "Dr. Surbhi Nikam is a board-certified plastic & cosmetic surgeon in Mumbai offering rhinoplasty, breast augmentation, liposuction, hair transplant and more. Book a consultation today.",
+    "Dr. Girish N. Mirajkar is a board-certified Consultant Plastic, Aesthetic & Reconstructive Surgeon in Mumbai offering rhinoplasty, breast augmentation, liposuction, hair transplant and more. Book a consultation today.",
   alternates: {
-    canonical: "https://drsurbhinikam.com",
+    canonical: "https://drgirish.com",
   },
 };
 

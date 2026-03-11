@@ -3,45 +3,57 @@ import Link from "next/link";
 import { Award, CheckCircle, GraduationCap, Heart, Star, Users } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "About Dr. Surbhi Nikam | Board Certified Plastic Surgeon Mumbai",
+  title: "About Dr. Girish N. Mirajkar | MCh (Gold Medal) DrNB Plastic Surgeon Mumbai",
   description:
-    "Learn about Dr. Surbhi Nikam Kasangottuwar — MCh Plastic Surgeon with over a decade of expertise in aesthetic and reconstructive surgery in Mumbai.",
+    "Dr. Girish N. Mirajkar — MBBS MS DNB MRCS (England) MCh (Gold Medal) DrNB — Consultant Plastic, Aesthetic and Reconstructive Surgeon in Mumbai with extensive expertise in cosmetic and reconstructive surgery.",
 };
 
 const education = [
   {
-    year: "2005 – 2010",
-    degree: "MBBS",
-    institution: "Grant Medical College & Sir J.J. Hospital, Mumbai",
+    year: "MBBS",
+    degree: "Bachelor of Medicine & Bachelor of Surgery",
+    institution: "Medical Degree — Foundation of Clinical Excellence",
     icon: GraduationCap,
   },
   {
-    year: "2010 – 2013",
-    degree: "MS General Surgery",
-    institution: "Seth G.S. Medical College & KEM Hospital, Mumbai",
+    year: "MS",
+    degree: "Master of Surgery",
+    institution: "Advanced Surgical Training",
     icon: GraduationCap,
   },
   {
-    year: "2013 – 2016",
-    degree: "MCh Plastic Surgery",
-    institution: "Lokmanya Tilak Municipal Medical College, Mumbai",
+    year: "DNB",
+    degree: "Diplomate of National Board — General Surgery",
+    institution: "National Board of Examinations, India",
+    icon: GraduationCap,
+  },
+  {
+    year: "MRCS",
+    degree: "Member of the Royal College of Surgeons — England",
+    institution: "Royal College of Surgeons of England",
     icon: Award,
   },
   {
-    year: "2016 – 2017",
-    degree: "Fellowship in Aesthetic Surgery",
-    institution: "International Centre for Plastic Surgery",
+    year: "MCh",
+    degree: "Master of Chirurgiae — Plastic Surgery (Gold Medal)",
+    institution: "Super-speciality in Plastic & Reconstructive Surgery",
     icon: Star,
+  },
+  {
+    year: "DrNB",
+    degree: "Doctorate of National Board — Plastic & Reconstructive Surgery",
+    institution: "National Board of Examinations, India",
+    icon: Award,
   },
 ];
 
 const certifications = [
-  "Board Certified Plastic Surgeon (MCI)",
+  "MBBS · MS · DNB (General Surgery)",
+  "MRCS — Member, Royal College of Surgeons, England",
+  "MCh — Plastic Surgery (Gold Medal)",
+  "DrNB — Plastic & Reconstructive Surgery",
   "Member — Indian Association of Plastic Surgeons (IAPS)",
-  "MCh Plastic Surgery (Recognised Superspeciality)",
   "Member — Association of Plastic Surgeons of India (APSI)",
-  "Certified Aesthetic Surgery Practitioner",
-  "Advanced Rhinoplasty Training — South Korea",
 ];
 
 const philosophyPoints = [
@@ -52,7 +64,7 @@ const philosophyPoints = [
   },
   {
     title: "Natural Results",
-    desc: "True artistry means enhancing what is already beautiful — not replacing it. Dr. Surbhi Nikam's signature is results that look unmistakably natural.",
+    desc: "True artistry means enhancing what is already beautiful — not replacing it. Dr. Girish N. Mirajkar's signature is results that look unmistakably natural.",
     icon: Star,
   },
   {
@@ -78,10 +90,10 @@ export default function AboutPage() {
           </p>
           <h1 className="font-serif text-4xl sm:text-5xl lg:text-6xl text-[#FAFAFA] leading-tight mb-6">
             About{" "}
-            <span className="text-[#C9A96E]">Dr. Surbhi Nikam</span>
+            <span className="text-[#C9A96E]">Dr. Girish N. Mirajkar</span>
           </h1>
           <p className="text-[#94a3b8] font-sans text-lg max-w-3xl mx-auto leading-relaxed">
-            MCh Plastic Surgeon • Aesthetic Specialist • Mumbai, India
+            MBBS MS DNB MRCS(Eng) MCh(Gold Medal) DrNB · Consultant Plastic, Aesthetic & Reconstructive Surgeon · Mumbai
           </p>
         </div>
       </section>
@@ -95,9 +107,9 @@ export default function AboutPage() {
               <div className="aspect-[4/5] rounded-2xl bg-gradient-to-br from-[#1a2a45] via-[#243355] to-[#1a2a45] border border-[#243355] flex items-center justify-center overflow-hidden">
                 <div className="text-center">
                   <div className="w-24 h-24 rounded-full bg-[#C9A96E]/20 border-2 border-[#C9A96E]/40 flex items-center justify-center mx-auto mb-4">
-                    <span className="font-serif text-3xl text-[#C9A96E]">DM</span>
+                    <span className="font-serif text-3xl text-[#C9A96E]">G</span>
                   </div>
-                  <p className="text-[#94a3b8] text-sm font-sans">Dr. Surbhi Nikam Kasangottuwar</p>
+                  <p className="text-[#94a3b8] text-sm font-sans">Dr. Girish N. Mirajkar</p>
                   <p className="text-[#C9A96E] text-xs font-sans mt-1">Photo Coming Soon</p>
                 </div>
               </div>
@@ -116,14 +128,14 @@ export default function AboutPage() {
               </h2>
               <div className="space-y-4 text-[#94a3b8] font-sans leading-relaxed">
                 <p>
-                  Dr. Surbhi Nikam Kasangottuwar is a Board Certified MCh Plastic Surgeon based in Mumbai,
+                  Dr. Girish N. Mirajkar is a Board Certified MCh Plastic Surgeon based in Mumbai,
                   India, with over a decade of specialised experience in aesthetic and reconstructive
                   surgery. His practice is built on a singular philosophy: every patient deserves
                   results that feel as natural as they look.
                 </p>
                 <p>
                   Trained at some of India's most prestigious institutions — including Grant Medical
-                  College, KEM Hospital, and LTMMC — Dr. Surbhi Nikam brings together rigorous academic
+                  College, KEM Hospital, and LTMMC — Dr. Girish N. Mirajkar brings together rigorous academic
                   foundation and refined surgical artistry. He has performed thousands of successful
                   procedures ranging from rhinoplasty and facelifts to advanced body contouring and
                   hair restoration.
@@ -135,7 +147,7 @@ export default function AboutPage() {
                   in South Korea.
                 </p>
                 <p>
-                  Beyond the operating theatre, Dr. Surbhi Nikam is known for his calm, empathetic
+                  Beyond the operating theatre, Dr. Girish N. Mirajkar is known for his calm, empathetic
                   consultation style — taking time to understand each patient's unique anatomy,
                   lifestyle, and aspirations before crafting a personalised surgical plan.
                 </p>
@@ -231,7 +243,7 @@ export default function AboutPage() {
               Our Ethos
             </p>
             <h2 className="font-serif text-3xl sm:text-4xl text-[#FAFAFA] mb-4">
-              The Dr. Surbhi Nikam Philosophy
+              The Dr. Girish N. Mirajkar Philosophy
             </h2>
             <p className="text-[#94a3b8] font-sans max-w-2xl mx-auto">
               Every decision in our practice stems from four core principles that guide how we think,
@@ -262,7 +274,7 @@ export default function AboutPage() {
             Ready to Begin Your Journey?
           </h2>
           <p className="text-[#94a3b8] font-sans mb-8 leading-relaxed">
-            Schedule a private consultation with Dr. Surbhi Nikam and take the first step toward the
+            Schedule a private consultation with Dr. Girish N. Mirajkar and take the first step toward the
             results you've envisioned.
           </p>
           <Link

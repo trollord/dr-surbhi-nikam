@@ -57,7 +57,7 @@ export default function Hero() {
 
         {/* Subtext */}
         <p className="font-sans text-lg sm:text-xl text-[#94a3b8] max-w-2xl mx-auto mb-10 leading-relaxed">
-          Expert plastic & cosmetic surgery in Mumbai. Personalized care,
+          Expert plastic, aesthetic & reconstructive surgery in Mumbai. Personalized care,
           natural results, and advanced techniques tailored to you.
         </p>
 

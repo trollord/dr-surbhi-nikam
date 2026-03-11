@@ -44,10 +44,10 @@ export default function Navbar() {
           {/* Logo */}
           <Link href="/" className="flex flex-col leading-tight group">
             <span className="font-serif text-xl font-bold text-[#C9A96E] group-hover:text-[#D4B483] transition-colors">
-              Dr. Surbhi Nikam
+              Dr. Girish N. Mirajkar
             </span>
             <span className="text-[10px] text-[#94a3b8] uppercase tracking-widest font-sans">
-              Plastic & Cosmetic Surgeon
+              Consultant Plastic, Aesthetic & Reconstructive Surgeon
             </span>
           </Link>
 

@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import { MapPin, Phone, Mail, Clock } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Book a Consultation | Dr. Surbhi Nikam Plastic Surgeon Mumbai",
-  description: "Schedule a private consultation with Dr. Surbhi Nikam Kasangottuwar — MCh Plastic Surgeon in Mumbai. Contact us by phone, email, or our online booking form.",
+  title: "Book a Consultation | Dr. Girish N. Mirajkar Plastic Surgeon Mumbai",
+  description: "Schedule a private consultation with Dr. Girish N. Mirajkar — MCh Plastic Surgeon in Mumbai. Contact us by phone, email, or our online booking form.",
 };
 
 const procedures = [
@@ -29,7 +29,7 @@ const contactDetails = [
   {
     icon: MapPin,
     label: "Clinic Address",
-    lines: ["Dr. Surbhi Nikam Kasangottuwar", "Aesthetic Surgery Centre", "Bandra West, Mumbai — 400050", "Maharashtra, India"],
+    lines: ["Dr. Girish N. Mirajkar", "Aesthetic Surgery Centre", "Bandra West, Mumbai — 400050", "Maharashtra, India"],
   },
   {
     icon: Phone,
@@ -39,7 +39,7 @@ const contactDetails = [
   {
     icon: Mail,
     label: "Email",
-    lines: ["info@drsurbhinikam.com", "appointments@drsurbhinikam.com"],
+    lines: ["info@drgirish.com", "appointments@drgirish.com"],
   },
   {
     icon: Clock,
@@ -190,7 +190,7 @@ export default function ContactPage() {
                       id="message"
                       name="message"
                       rows={5}
-                      placeholder="Describe your concerns, goals, or any questions you have for Dr. Surbhi Nikam..."
+                      placeholder="Describe your concerns, goals, or any questions you have for Dr. Girish N. Mirajkar..."
                       className="w-full bg-[#0f1a2e] border border-[#243355] rounded-xl px-4 py-3 font-sans text-[#FAFAFA] placeholder-[#94a3b8]/50 focus:outline-none focus:border-[#C9A96E] transition-colors text-sm resize-none"
                     />
                   </div>
@@ -205,7 +205,7 @@ export default function ContactPage() {
                       className="w-4 h-4 mt-0.5 accent-[#C9A96E] flex-shrink-0"
                     />
                     <label htmlFor="consent" className="font-sans text-xs text-[#94a3b8] leading-relaxed cursor-pointer">
-                      I consent to Dr. Surbhi Nikam Kasangottuwar's team contacting me regarding my enquiry. I understand that my personal information will be handled in accordance with applicable privacy laws and will not be shared with third parties. <span className="text-[#C9A96E]">*</span>
+                      I consent to Dr. Girish N. Mirajkar's team contacting me regarding my enquiry. I understand that my personal information will be handled in accordance with applicable privacy laws and will not be shared with third parties. <span className="text-[#C9A96E]">*</span>
                     </label>
                   </div>
 

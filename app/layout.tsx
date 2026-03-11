@@ -19,49 +19,49 @@ const playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://drsurbhinikam.com"),
+  metadataBase: new URL("https://drgirish.com"),
   title: {
-    default: "Dr. Surbhi Nikam | Plastic & Cosmetic Surgeon in Mumbai",
-    template: "%s | Dr. Surbhi Nikam - Plastic Surgeon Mumbai",
+    default: "Dr. Girish N. Mirajkar | Consultant Plastic, Aesthetic & Reconstructive Surgeon in Mumbai",
+    template: "%s | Dr. Girish N. Mirajkar - Plastic Surgeon Mumbai",
   },
   description:
-    "Dr. Surbhi Nikam is a leading board-certified plastic & cosmetic surgeon in Mumbai, specializing in face, breast, body, and hair restoration procedures. Book a consultation today.",
+    "Dr. Girish N. Mirajkar is a leading board-certified Consultant Plastic, Aesthetic & Reconstructive Surgeon in Mumbai, specializing in face, breast, body, and hair restoration procedures. Book a consultation today.",
   keywords: [
-    "plastic surgeon Mumbai",
+    "plastic surgeon Mumbai, Dr Girish Mirajkar",
     "cosmetic surgeon Mumbai",
     "rhinoplasty Mumbai",
     "breast augmentation Mumbai",
     "liposuction Mumbai",
     "hair transplant Mumbai",
-    "Dr Surbhi Nikam plastic surgeon",
+    "Dr Girish Mirajkar plastic surgeon", "DrNB plastic surgery Mumbai", "MCh plastic surgeon Mumbai",
     "cosmetic surgery Mumbai",
     "facelift Mumbai",
     "tummy tuck Mumbai",
   ],
-  authors: [{ name: "Dr. Surbhi Nikam" }],
-  creator: "Dr. Surbhi Nikam",
+  authors: [{ name: "Dr. Girish N. Mirajkar" }],
+  creator: "Dr. Girish N. Mirajkar",
   openGraph: {
     type: "website",
     locale: "en_IN",
-    url: "https://drsurbhinikam.com",
-    siteName: "Dr. Surbhi Nikam - Plastic & Cosmetic Surgeon",
-    title: "Dr. Surbhi Nikam | Plastic & Cosmetic Surgeon in Mumbai",
+    url: "https://drgirish.com",
+    siteName: "Dr. Girish N. Mirajkar - Consultant Plastic, Aesthetic & Reconstructive Surgeon",
+    title: "Dr. Girish N. Mirajkar | Consultant Plastic, Aesthetic & Reconstructive Surgeon in Mumbai",
     description:
-      "Leading plastic & cosmetic surgeon in Mumbai specializing in face, breast, body, and hair restoration. Transform your confidence with expert care.",
+      "Leading Consultant Plastic, Aesthetic & Reconstructive Surgeon in Mumbai specializing in face, breast, body, and hair restoration. Transform your confidence with expert care.",
     images: [
       {
         url: "/images/og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "Dr. Surbhi Nikam - Plastic & Cosmetic Surgeon Mumbai",
+        alt: "Dr. Girish N. Mirajkar - Consultant Plastic, Aesthetic & Reconstructive Surgeon Mumbai",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Dr. Surbhi Nikam | Plastic & Cosmetic Surgeon in Mumbai",
+    title: "Dr. Girish N. Mirajkar | Consultant Plastic, Aesthetic & Reconstructive Surgeon in Mumbai",
     description:
-      "Leading plastic & cosmetic surgeon in Mumbai. Expert care in facial, breast, body & hair restoration procedures.",
+      "Leading Consultant Plastic, Aesthetic & Reconstructive Surgeon in Mumbai. Expert care in facial, breast, body & hair restoration procedures.",
     images: ["/images/og-image.jpg"],
   },
   robots: {
