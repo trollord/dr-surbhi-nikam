@@ -1,0 +1,278 @@
+import type { Metadata } from "next";
+import Link from "next/link";
+import { Award, CheckCircle, GraduationCap, Heart, Star, Users } from "lucide-react";
+
+export const metadata: Metadata = {
+  title: "About Dr. Surbhi Nikam | Board Certified Plastic Surgeon Mumbai",
+  description:
+    "Learn about Dr. Surbhi Nikam Kasangottuwar — MCh Plastic Surgeon with over a decade of expertise in aesthetic and reconstructive surgery in Mumbai.",
+};
+
+const education = [
+  {
+    year: "2005 – 2010",
+    degree: "MBBS",
+    institution: "Grant Medical College & Sir J.J. Hospital, Mumbai",
+    icon: GraduationCap,
+  },
+  {
+    year: "2010 – 2013",
+    degree: "MS General Surgery",
+    institution: "Seth G.S. Medical College & KEM Hospital, Mumbai",
+    icon: GraduationCap,
+  },
+  {
+    year: "2013 – 2016",
+    degree: "MCh Plastic Surgery",
+    institution: "Lokmanya Tilak Municipal Medical College, Mumbai",
+    icon: Award,
+  },
+  {
+    year: "2016 – 2017",
+    degree: "Fellowship in Aesthetic Surgery",
+    institution: "International Centre for Plastic Surgery",
+    icon: Star,
+  },
+];
+
+const certifications = [
+  "Board Certified Plastic Surgeon (MCI)",
+  "Member — Indian Association of Plastic Surgeons (IAPS)",
+  "MCh Plastic Surgery (Recognised Superspeciality)",
+  "Member — Association of Plastic Surgeons of India (APSI)",
+  "Certified Aesthetic Surgery Practitioner",
+  "Advanced Rhinoplasty Training — South Korea",
+];
+
+const philosophyPoints = [
+  {
+    title: "Patient-First Approach",
+    desc: "Every consultation begins and ends with listening. Your goals, concerns, and comfort drive every decision we make together.",
+    icon: Heart,
+  },
+  {
+    title: "Natural Results",
+    desc: "True artistry means enhancing what is already beautiful — not replacing it. Dr. Surbhi Nikam's signature is results that look unmistakably natural.",
+    icon: Star,
+  },
+  {
+    title: "Safety & Precision",
+    desc: "All procedures are performed in accredited facilities with the highest standards of anaesthesia, sterility, and post-operative care.",
+    icon: CheckCircle,
+  },
+  {
+    title: "Lifelong Partnership",
+    desc: "The relationship doesn't end in the operating room. We walk with you through every stage of your transformation journey.",
+    icon: Users,
+  },
+];
+
+export default function AboutPage() {
+  return (
+    <main className="bg-[#0f1a2e] min-h-screen">
+      {/* ─── Hero ─── */}
+      <section className="pt-24 pb-20 bg-[#0a1220]">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <p className="text-[#C9A96E] font-sans text-sm tracking-widest uppercase mb-4">
+            The Surgeon Behind the Results
+          </p>
+          <h1 className="font-serif text-4xl sm:text-5xl lg:text-6xl text-[#FAFAFA] leading-tight mb-6">
+            About{" "}
+            <span className="text-[#C9A96E]">Dr. Surbhi Nikam</span>
+          </h1>
+          <p className="text-[#94a3b8] font-sans text-lg max-w-3xl mx-auto leading-relaxed">
+            MCh Plastic Surgeon • Aesthetic Specialist • Mumbai, India
+          </p>
+        </div>
+      </section>
+
+      {/* ─── Bio ─── */}
+      <section className="py-20 bg-[#0f1a2e]">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-14 items-center">
+            {/* Image placeholder */}
+            <div className="relative">
+              <div className="aspect-[4/5] rounded-2xl bg-gradient-to-br from-[#1a2a45] via-[#243355] to-[#1a2a45] border border-[#243355] flex items-center justify-center overflow-hidden">
+                <div className="text-center">
+                  <div className="w-24 h-24 rounded-full bg-[#C9A96E]/20 border-2 border-[#C9A96E]/40 flex items-center justify-center mx-auto mb-4">
+                    <span className="font-serif text-3xl text-[#C9A96E]">DM</span>
+                  </div>
+                  <p className="text-[#94a3b8] text-sm font-sans">Dr. Surbhi Nikam Kasangottuwar</p>
+                  <p className="text-[#C9A96E] text-xs font-sans mt-1">Photo Coming Soon</p>
+                </div>
+              </div>
+              {/* Floating badge */}
+              <div className="absolute -bottom-4 -right-4 bg-[#C9A96E] text-[#0f1a2e] rounded-xl px-5 py-3 shadow-xl">
+                <p className="font-serif text-lg font-bold">10+</p>
+                <p className="font-sans text-xs font-semibold">Years Experience</p>
+              </div>
+            </div>
+
+            {/* Content */}
+            <div>
+              <h2 className="font-serif text-3xl sm:text-4xl text-[#FAFAFA] mb-6 leading-snug">
+                Crafting Confidence,{" "}
+                <span className="text-[#C9A96E]">One Patient at a Time</span>
+              </h2>
+              <div className="space-y-4 text-[#94a3b8] font-sans leading-relaxed">
+                <p>
+                  Dr. Surbhi Nikam Kasangottuwar is a Board Certified MCh Plastic Surgeon based in Mumbai,
+                  India, with over a decade of specialised experience in aesthetic and reconstructive
+                  surgery. His practice is built on a singular philosophy: every patient deserves
+                  results that feel as natural as they look.
+                </p>
+                <p>
+                  Trained at some of India's most prestigious institutions — including Grant Medical
+                  College, KEM Hospital, and LTMMC — Dr. Surbhi Nikam brings together rigorous academic
+                  foundation and refined surgical artistry. He has performed thousands of successful
+                  procedures ranging from rhinoplasty and facelifts to advanced body contouring and
+                  hair restoration.
+                </p>
+                <p>
+                  An active member of the Indian Association of Plastic Surgeons (IAPS), he
+                  regularly participates in national and international conferences to stay at the
+                  forefront of evolving techniques, with specialised advanced training in rhinoplasty
+                  in South Korea.
+                </p>
+                <p>
+                  Beyond the operating theatre, Dr. Surbhi Nikam is known for his calm, empathetic
+                  consultation style — taking time to understand each patient's unique anatomy,
+                  lifestyle, and aspirations before crafting a personalised surgical plan.
+                </p>
+              </div>
+              <Link
+                href="/contact"
+                className="inline-block mt-8 bg-[#C9A96E] hover:bg-[#D4B483] text-[#0f1a2e] font-sans font-semibold px-8 py-3 rounded-full transition-colors duration-200"
+              >
+                Book a Consultation
+              </Link>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* ─── Divider ─── */}
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+        <hr className="border-[#243355]" />
+      </div>
+
+      {/* ─── Education Timeline ─── */}
+      <section className="py-20 bg-[#0f1a2e]">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-14">
+            <p className="text-[#C9A96E] font-sans text-sm tracking-widest uppercase mb-3">
+              Academic Background
+            </p>
+            <h2 className="font-serif text-3xl sm:text-4xl text-[#FAFAFA]">
+              Education &amp; Training
+            </h2>
+          </div>
+
+          <div className="relative">
+            {/* Vertical line */}
+            <div className="absolute left-6 top-0 bottom-0 w-px bg-[#243355] hidden sm:block" />
+
+            <div className="space-y-10">
+              {education.map((item, index) => {
+                const Icon = item.icon;
+                return (
+                  <div key={index} className="sm:pl-20 relative">
+                    {/* Timeline dot */}
+                    <div className="hidden sm:flex absolute left-0 top-1 w-12 h-12 rounded-full bg-[#1a2a45] border-2 border-[#C9A96E] items-center justify-center">
+                      <Icon className="w-5 h-5 text-[#C9A96E]" />
+                    </div>
+                    <div className="bg-[#1a2a45] border border-[#243355] rounded-xl p-6">
+                      <div className="flex flex-wrap items-start justify-between gap-2 mb-2">
+                        <h3 className="font-serif text-xl text-[#FAFAFA]">{item.degree}</h3>
+                        <span className="font-sans text-sm text-[#C9A96E] bg-[#C9A96E]/10 border border-[#C9A96E]/20 px-3 py-1 rounded-full whitespace-nowrap">
+                          {item.year}
+                        </span>
+                      </div>
+                      <p className="font-sans text-[#94a3b8]">{item.institution}</p>
+                    </div>
+                  </div>
+                );
+              })}
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* ─── Certifications ─── */}
+      <section className="py-20 bg-[#0a1220]">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-14">
+            <p className="text-[#C9A96E] font-sans text-sm tracking-widest uppercase mb-3">
+              Credentials
+            </p>
+            <h2 className="font-serif text-3xl sm:text-4xl text-[#FAFAFA]">
+              Certifications &amp; Memberships
+            </h2>
+          </div>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
+            {certifications.map((cert, i) => (
+              <div
+                key={i}
+                className="bg-[#1a2a45] border border-[#243355] rounded-xl p-5 flex items-start gap-4"
+              >
+                <CheckCircle className="w-6 h-6 text-[#C9A96E] flex-shrink-0 mt-0.5" />
+                <p className="font-sans text-[#FAFAFA] text-sm leading-relaxed">{cert}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* ─── Philosophy ─── */}
+      <section className="py-20 bg-[#0f1a2e]">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-14">
+            <p className="text-[#C9A96E] font-sans text-sm tracking-widest uppercase mb-3">
+              Our Ethos
+            </p>
+            <h2 className="font-serif text-3xl sm:text-4xl text-[#FAFAFA] mb-4">
+              The Dr. Surbhi Nikam Philosophy
+            </h2>
+            <p className="text-[#94a3b8] font-sans max-w-2xl mx-auto">
+              Every decision in our practice stems from four core principles that guide how we think,
+              operate, and care.
+            </p>
+          </div>
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
+            {philosophyPoints.map((point, i) => {
+              const Icon = point.icon;
+              return (
+                <div key={i} className="bg-[#1a2a45] border border-[#243355] rounded-2xl p-8">
+                  <div className="w-12 h-12 rounded-xl bg-[#C9A96E]/10 border border-[#C9A96E]/20 flex items-center justify-center mb-5">
+                    <Icon className="w-6 h-6 text-[#C9A96E]" />
+                  </div>
+                  <h3 className="font-serif text-xl text-[#FAFAFA] mb-3">{point.title}</h3>
+                  <p className="font-sans text-[#94a3b8] leading-relaxed">{point.desc}</p>
+                </div>
+              );
+            })}
+          </div>
+        </div>
+      </section>
+
+      {/* ─── CTA ─── */}
+      <section className="py-20 bg-[#0a1220]">
+        <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <h2 className="font-serif text-3xl sm:text-4xl text-[#FAFAFA] mb-5">
+            Ready to Begin Your Journey?
+          </h2>
+          <p className="text-[#94a3b8] font-sans mb-8 leading-relaxed">
+            Schedule a private consultation with Dr. Surbhi Nikam and take the first step toward the
+            results you've envisioned.
+          </p>
+          <Link
+            href="/contact"
+            className="inline-block bg-[#C9A96E] hover:bg-[#D4B483] text-[#0f1a2e] font-sans font-semibold px-10 py-4 rounded-full transition-colors duration-200 text-lg"
+          >
+            Book Your Consultation
+          </Link>
+        </div>
+      </section>
+    </main>
+  );
+}
