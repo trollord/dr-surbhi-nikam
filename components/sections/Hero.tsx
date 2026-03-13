@@ -49,7 +49,7 @@ export default function Hero() {
         </div>
 
         {/* Headline */}
-        <h1 className="font-serif text-5xl sm:text-6xl lg:text-7xl xl:text-8xl font-bold text-[#FAFAFA] leading-[1.1] mb-6">
+        <h1 className="font-serif text-4xl sm:text-5xl lg:text-7xl xl:text-8xl font-bold text-[#FAFAFA] leading-[1.1] mb-6">
           Transform Your
           <br />
           <span className="text-gold-gradient">Confidence</span>

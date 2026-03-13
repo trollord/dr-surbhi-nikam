@@ -37,7 +37,7 @@ export default function FaceProceduresPage() {
       <section className="pb-20 bg-[#0a1220]">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <p className="text-[#C9A96E] font-sans text-sm tracking-widest uppercase mb-4">Surgical and Non-Surgical</p>
-          <h1 className="font-serif text-4xl sm:text-5xl lg:text-6xl text-[#FAFAFA] leading-tight mb-6">
+          <h1 className="font-serif text-3xl sm:text-4xl lg:text-5xl xl:text-6xl text-[#FAFAFA] leading-tight mb-6">
             Face <span className="text-[#C9A96E]">Procedures</span>
           </h1>
           <p className="text-[#94a3b8] font-sans text-lg max-w-3xl mx-auto leading-relaxed">
@@ -50,7 +50,7 @@ export default function FaceProceduresPage() {
           <div className="space-y-10">
             {procedures.map((proc, index) => (
               <div key={proc.id} id={proc.id} className="grid grid-cols-1 lg:grid-cols-2 gap-0 items-start rounded-2xl border border-[#243355] overflow-hidden bg-[#1a2a45]">
-                <div className="min-h-[220px] bg-gradient-to-br from-[#243355] to-[#0a1220] flex items-center justify-center p-8">
+                <div className="min-h-[160px] sm:min-h-[220px] bg-gradient-to-br from-[#243355] to-[#0a1220] flex items-center justify-center p-6 sm:p-8">
                   <div className="text-center">
                     <div className="w-16 h-16 rounded-full bg-[#C9A96E]/20 border-2 border-[#C9A96E]/40 flex items-center justify-center mx-auto mb-3">
                       <span className="font-serif text-xl text-[#C9A96E]">{index + 1}</span>

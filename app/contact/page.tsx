@@ -60,7 +60,7 @@ export default function ContactPage() {
       <section className="pt-24 pb-20 bg-[#0a1220]">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <p className="text-[#C9A96E] font-sans text-sm tracking-widest uppercase mb-4">Private Consultations Available</p>
-          <h1 className="font-serif text-4xl sm:text-5xl lg:text-6xl text-[#FAFAFA] leading-tight mb-6">
+          <h1 className="font-serif text-3xl sm:text-4xl lg:text-5xl xl:text-6xl text-[#FAFAFA] leading-tight mb-6">
             Book a <span className="text-[#C9A96E]">Consultation</span>
           </h1>
           <p className="text-[#94a3b8] font-sans text-lg max-w-3xl mx-auto leading-relaxed">

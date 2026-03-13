@@ -30,7 +30,7 @@ function StatItem({ value, suffix, label, description, start }: (typeof stats)[0
   const count = useCountUp(value, 1800, start);
   return (
     <div className="text-center group">
-      <div className="font-serif text-5xl lg:text-6xl font-bold text-[#C9A96E] mb-2 tabular-nums">
+      <div className="font-serif text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-bold text-[#C9A96E] mb-2 tabular-nums">
         {count}
         <span className="text-[#D4B483]">{suffix}</span>
       </div>
@@ -58,7 +58,7 @@ export default function Stats() {
   return (
     <section
       ref={ref}
-      className="py-24 relative overflow-hidden"
+      className="py-16 sm:py-24 relative overflow-hidden"
       style={{
         background: "linear-gradient(135deg, #0a1220 0%, #0f1a2e 50%, #0a1220 100%)",
       }}
@@ -69,7 +69,7 @@ export default function Stats() {
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section header */}
-        <div className="text-center mb-16">
+        <div className="text-center mb-10 sm:mb-16">
           <p className="text-[#C9A96E] text-sm font-sans uppercase tracking-widest mb-3">
             By The Numbers
           </p>
@@ -79,7 +79,7 @@ export default function Stats() {
         </div>
 
         {/* Stats grid */}
-        <div className="grid grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-4">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-6 md:gap-4">
           {stats.map((stat, i) => (
             <div key={stat.label}>
               {i > 0 && (

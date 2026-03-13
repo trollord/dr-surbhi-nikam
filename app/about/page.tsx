@@ -88,7 +88,7 @@ export default function AboutPage() {
           <p className="text-[#C9A96E] font-sans text-sm tracking-widest uppercase mb-4">
             The Surgeon Behind the Results
           </p>
-          <h1 className="font-serif text-4xl sm:text-5xl lg:text-6xl text-[#FAFAFA] leading-tight mb-6">
+          <h1 className="font-serif text-3xl sm:text-4xl lg:text-5xl xl:text-6xl text-[#FAFAFA] leading-tight mb-6">
             About{" "}
             <span className="text-[#C9A96E]">Dr. Girish N. Mirajkar</span>
           </h1>
@@ -101,7 +101,7 @@ export default function AboutPage() {
       {/* ─── Bio ─── */}
       <section className="py-20 bg-[#0f1a2e]">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-14 items-center">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-12 lg:gap-14 items-center">
             {/* Image placeholder */}
             <div className="relative">
               <div className="aspect-[4/5] rounded-2xl bg-gradient-to-br from-[#1a2a45] via-[#243355] to-[#1a2a45] border border-[#243355] flex items-center justify-center overflow-hidden">

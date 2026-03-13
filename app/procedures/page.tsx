@@ -60,7 +60,7 @@ export default function ProceduresPage() {
           <p className="text-[#C9A96E] font-sans text-sm tracking-widest uppercase mb-4">
             Surgical &amp; Non-Surgical Options
           </p>
-          <h1 className="font-serif text-4xl sm:text-5xl lg:text-6xl text-[#FAFAFA] leading-tight mb-6">
+          <h1 className="font-serif text-3xl sm:text-4xl lg:text-5xl xl:text-6xl text-[#FAFAFA] leading-tight mb-6">
             Our{" "}
             <span className="text-[#C9A96E]">Procedures</span>
           </h1>

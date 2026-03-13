@@ -14,9 +14,9 @@ export default function AboutPreview() {
   const ref = useRef<HTMLDivElement>(null);
 
   return (
-    <section className="py-24 bg-[#0f1a2e] overflow-hidden">
+    <section className="py-16 sm:py-24 bg-[#0f1a2e] overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 sm:gap-16 items-center">
           {/* Image placeholder */}
           <div ref={ref} className="relative">
             <div className="relative rounded-2xl overflow-hidden bg-[#1a2a45] aspect-[4/5] max-w-md mx-auto lg:mx-0">
@@ -47,7 +47,7 @@ export default function AboutPreview() {
               <div className="absolute bottom-0 left-0 right-0 h-1 bg-gradient-to-r from-transparent via-[#C9A96E] to-transparent" />
             </div>
             {/* Floating badge */}
-            <div className="absolute -bottom-6 -right-4 lg:right-0 bg-[#1a2a45] border border-[#243355] rounded-xl px-5 py-4 shadow-xl">
+            <div className="absolute -bottom-5 right-2 sm:-bottom-6 sm:-right-4 lg:right-0 bg-[#1a2a45] border border-[#243355] rounded-xl px-4 sm:px-5 py-3 sm:py-4 shadow-xl">
               <div className="font-serif text-3xl font-bold text-[#C9A96E]">
                 10+
               </div>
@@ -62,7 +62,7 @@ export default function AboutPreview() {
             <p className="text-[#C9A96E] text-sm font-sans uppercase tracking-widest mb-3">
               About Dr. Girish N. Mirajkar
             </p>
-            <h2 className="font-serif text-4xl lg:text-5xl font-bold text-[#FAFAFA] leading-tight mb-6">
+            <h2 className="font-serif text-3xl sm:text-4xl lg:text-5xl font-bold text-[#FAFAFA] leading-tight mb-5 sm:mb-6">
               Precision, Art &<br />
               <span className="text-gold-gradient">Compassion</span>
             </h2>
